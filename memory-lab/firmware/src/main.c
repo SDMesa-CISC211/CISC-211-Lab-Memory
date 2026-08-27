@@ -68,7 +68,8 @@ static char * fail = "FAIL";
 // value.
 //
 // Function signature
-extern int32_t asmFunc(int32_t, int32_t);
+extern int32_t asmMem(int32_t, int32_t);
+int32_t asmTest(int32_t, int32_t);
 
 extern char * nameStrPtr; // so we can print the name string
 
@@ -261,7 +262,7 @@ int main ( void )
 
             // !!!! THIS IS WHERE YOUR ASSEMBLY LANGUAGE PROGRAM GETS CALLED!!!!
             // Call our assembly function defined in file asmFunc.s
-            result = asmFunc(inp1, inp2);
+            result = asmMem(inp1, inp2);
             
             if (strTestComplete == false)
             {

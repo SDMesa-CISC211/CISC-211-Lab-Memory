@@ -45,9 +45,9 @@ where:
         None
           
 ********************************************************************/    
-.global asmFunc
-.type asmFunc,%function
-asmFunc:   
+.global asmMem
+.type asmMem,%function
+asmMem:   
 
     /* save the caller's registers, as required by the ARM calling convention */
     push {r4-r11,LR}
