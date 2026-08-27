@@ -1,0 +1,64 @@
+# build artifacts (VB)
+.generated_files/
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# added by VB
+*.elf
+*.hex
+build/
+dist/
+*.s~
+*.un~
+*.swp
+*.*~
+.DS_Store
+private/
+**/nbproject/Makefile-*
+**/.generated_files/
+**/.main-meta/
+**/firmware/**/*.inx
+**/firmware/**/*.log
+/addition-starter-lab/firmware/addition-starter-lab.X/.vscode
+addition-starter-lab/firmware/addition-starter-lab.X/_build/addition-starter-lab/sam_e51_cnano/.ninja_deps
+addition-starter-lab/firmware/addition-starter-lab.X/_build/addition-starter-lab/sam_e51_cnano/build.ninja
+addition-starter-lab/firmware/addition-starter-lab.X/_build/addition-starter-lab/sam_e51_cnano/cmake_install.cmake
+addition-starter-lab/firmware/addition-starter-lab.X/_build/addition-starter-lab/sam_e51_cnano/CMakeCache.txt
+/addition-starter-lab/firmware/addition-starter-lab.X/_build/addition-starter-lab/sam_e51_cnano/CMakeFiles
+/addition-starter-lab/firmware/addition-starter-lab.X/cmake/addition-starter-lab/sam_e51_cnano/.generated
+addition-starter-lab/firmware/addition-starter-lab.X/_build/addition-starter-lab/sam_e51_cnano/.ninja_lock
+addition-starter-lab/firmware/addition-starter-lab.X/_build/addition-starter-lab/sam_e51_cnano/.ninja_log
+addition-starter-lab/firmware/addition-starter-lab.X/_build/addition-starter-lab/sam_e51_cnano/compile_commands.json
+addition-starter-lab/firmware/addition-starter-lab.X/cmake/addition-starter-lab/sam_e51_cnano/CMakeLists.txt
+addition-starter-lab/firmware/addition-starter-lab.X/cmake/addition-starter-lab/sam_e51_cnano/CMakePresets.json
